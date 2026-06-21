@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    container_name: custom-nginx
+    ports:
+      - "9090:80"   # changed host port
+    volumes:
+      - ./html:/var/opt/nginx
+
