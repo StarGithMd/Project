@@ -4,7 +4,7 @@
 #########################################################################################################################
 
 ## Kubernetes Task -1
-https://docs.google.com/document/d/1zLfIH2e_9-vVCsxpeFuLJx6YP9pLKIzJj8LUf4fXhG8/edit?usp=sharing
+https://docs.google.com/document/d/1d_cLx9yw-Fx1eiVnG0KnUOMEt45G5CqVapb3OH9ar7A/edit?usp=sharing
 
 ## Techstacks needs to be used : 
    - AWS EBS
