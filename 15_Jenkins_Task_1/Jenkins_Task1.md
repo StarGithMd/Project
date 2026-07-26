@@ -98,3 +98,18 @@ Assign roles: Admin, Developer, Viewer.
 For enterprise setups:
 Integrate with LDAP/Active Directory.
 Use GitHub OAuth or SAML for single sign-on.
+
+md_rustam@DESKTOP-CPK0PUB:~/Project$ git add .; git commit -m "15_Jenkins_Task_1"; git push
+[main 2d4f1e7] 15_Jenkins_Task_1
+ 2 files changed, 100 insertions(+)
+ create mode 100644 15_Jenkins_Task_1/Jenkins_Task1.jpg
+ create mode 100644 15_Jenkins_Task_1/Jenkins_Task1.md
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.65 MiB | 2.87 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/StarGithMd/Project.git
+   8bfeeae..2d4f1e7  main -> main
