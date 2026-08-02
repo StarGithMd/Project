@@ -85,3 +85,34 @@ chmod +x script.sh
 
 Commit and push to the GitHub repo.
 git add .; git commit -m "16_Jenkins_Task_2"; git push
+[main bf6a7f2] 16_Jenkins_Task_2
+ 2 files changed, 93 insertions(+)
+ create mode 100644 16_Jenkins_Task_2/Jenkins_Task2.md
+ create mode 100755 16_Jenkins_Task_2/script.sh
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.09 KiB | 534.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/StarGithMd/Project.git
+   6ac8f0c..bf6a7f2  main -> main
+
+Step 2: Configure Jenkins Project (Open Jenkins → New Item → select Freestyle Project):
+Under Source Code Management, choose Git and paste your repo URL. Under Build Triggers, GitHub hook trigger for GITScm polling
+
+http://192.168.110.137:8080/github-webhook/
+
+Step 3: Configure GitHub Webhook, Add Build Step, In Jenkins job → Build Steps → Execute shell:
+
+Email Notification
+1.	Install Email Extension Plugin in Jenkins.
+2.	Configure SMTP in Manage Jenkins → Configure System:
+•  Go to Manage Jenkins → Configure System.
+•  Scroll down to Extended E-mail Notification.
+•  Fill in the SMTP details:
+
+3.	smtp.gmail.com
+4.	Port: 587
+5.	Use TLS
