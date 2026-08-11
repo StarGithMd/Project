@@ -209,7 +209,20 @@ terraform plan
 # 5. Apply — creates instances in both regions
 terraform apply
 
-
+md_rustam@DESKTOP-CPK0PUB:~/Project$ git add .; git commit -m "17_Terraform_Task_1"; git push
+[main af9ba5e] 17_Terraform_Task_1
+ 2 files changed, 222 insertions(+)
+ create mode 100644 17_Terraform_Task_1/Terraform_Task_1.md
+ create mode 100644 17_Terraform_Task_1/terraform_Task1.jpg
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.51 MiB | 1.82 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/StarGithMd/Project.git
+   1bf6676..af9ba5e  main -> main
 
 
 
